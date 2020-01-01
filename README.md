@@ -50,3 +50,16 @@ In addition, we propose a general video segment augmentation method as follows.
 - without augmentation methof: `test_network_baseline()`
 - with augmentation method: `test_network_aug_segment()`
 
+
+# Citing
+If you find this code useful for your research, please consider citing the following paper:
+```
+@inproceedings{fu2019embodied,
+  title={Embodied One-Shot Video Recognition: Learning from Actions of a Virtual Embodied Agent},
+  author={Fu, Yuqian and Wang, Chengrong and Fu, Yanwei and Wang, Yu-Xiong and Bai, Cong and Xue, Xiangyang and Jiang, Yu-Gang},
+  booktitle={Proceedings of the 27th ACM International Conference on Multimedia},
+  pages={411--419},
+  year={2019},
+  organization={ACM}
+}
+```
