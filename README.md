@@ -45,7 +45,7 @@ In addition, we propose a general video segment augmentation method as follows.
 - run code: `network_train.py`
 - change the mode to `aug_seg_T`
 
-**3. test model with/without applying augmentation method**
+**4. test model with/without applying augmentation method**
 - run code: `network_test.py`
 - without augmentation methof: `test_network_baseline()`
 - with augmentation method: `test_network_aug_segment()`
