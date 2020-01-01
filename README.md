@@ -50,6 +50,8 @@ In addition, we propose a general video segment augmentation method as follows.
 - without augmentation methof: `test_network_baseline()`
 - with augmentation method: `test_network_aug_segment()`
 
+if you want to conduct exeperinments on UnrealAction, chmoify the global path in `utils.py`, other operations are the same as miniKinetics.
+
 
 # Citing
 If you find this code useful for your research, please consider citing the following paper:
