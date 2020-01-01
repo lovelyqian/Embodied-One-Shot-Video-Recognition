@@ -35,12 +35,18 @@ In addition, we propose a general video segment augmentation method as follows.
 **0. modify the global path**
 - modify code: `utils.py`
 
-**1. fintune model on source data**
+**1. finetune model on source data**
 - run code: `network_train.py`
 
 **2. augment source data**
 - run code: `generate_augmented_datasets.py`
 
+**3. finetune model on the augmented data**
+- run code: `network_train.py`
+- change the mode to `aug_seg_T`
+
 **3. test model with/without applying augmentation method**
 - run code: `network_test.py`
+- without augmentation methof: `test_network_baseline()`
+- with augmentation method: `test_network_aug_segment()`
 
